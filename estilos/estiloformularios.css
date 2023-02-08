@@ -130,16 +130,14 @@ legend {
     color:var(--cor01);
     font-size: 15px;
     cursor: pointer;
-    border-radius: 10px;
-   
-    
+    border-radius: 10px; 
 }
 
 #submit:hover, #reset:hover {
     background-image: linear-gradient(to right,var(--cor09),var(--cor10));
-
 }
- a{
+ 
+a{
     color: var(--cor12);
     text-align:right;
- }
+}
