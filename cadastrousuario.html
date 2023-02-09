@@ -13,7 +13,7 @@
       <h1>Cultura e Arte</h1>
    </header>
        <div class="box">
-        <form action="index.html" method="post">
+        <form action="" method="post">
          <a href="index.html"> <img src="imagens/menuico.png"/></a>
             <fieldset>
                 <legend><b>Cadastro de Usuários</legend>
@@ -25,7 +25,7 @@
                  <br>
                  <div class="inputBox"> 
                   <input type="cpf" name="cpf" id="cpf" class="inputUser" required pattern="^(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{11})$"
-                  title="Digite o cpf corretamente"/><br/>
+                  title="Digite o cpf corretamente" placeholder="000.000.000-00"/><br/>
                   <label form="cpf" class="labelInput">CPF</label>
                   </div>
                   <br>
@@ -50,14 +50,14 @@
                   <input type="date" name="data_nascimento" id="data_nascimento" required>
                   <br><br>-->
                  <div class="inputBox"> 
-                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <input type="password" name="senha" id="senha" class="" required>
+                    <a class="ls-label-text-prefix ls-toggle-pass ls-ico-eye" data-toggle-class="ls-ico-eye, ls-ico-eye-blocked" data-target="#password_field" href="#">
+                  
+                    </a>
+                  </a>
                     <label form="senha" class="labelInput">Senha</label>
                  </div>
                  <br>
-                 <div class="inputBox"> 
-                    <input type="password" name="confirma_senha" id="confirma_senha" class="inputUser" required>
-                    <label form="confirma_senha" class="labelInput">Confirma senha</label>
-                 </div>
                  <br>
                  <input type="submit" name="submit" id="submit" onclick="index.html">
             </fieldset>

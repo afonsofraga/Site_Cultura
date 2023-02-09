@@ -240,6 +240,24 @@ section#img05 {
     color: var(--cor01);
     background-attachment: fixed;
 }
+
+section#img06 {
+    background-image: url("../imagens/imagem06.jpg");
+    background-position: left top;
+    background-size: cover;
+    box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.4);
+    color: var(--cor01);
+    background-attachment: fixed;
+}
+section#img07 {
+    background-image: url("../imagens/imagem07.jpg");
+    background-position: left top;
+    background-size: cover;
+    box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.4);
+    color: var(--cor01);
+    background-attachment: fixed;
+}
+
 footer a {
     color:var(--cor11);
     text-decoration: none;
