@@ -7,12 +7,15 @@
     <meta name="description" content="Pagina para cadastro de dados de artistas para projetos">
     <meta name="keywords" content="Cultura,Incentivo, Projeto Cultural">
     <meta name="autor" content="Afonso Henrique Fraga de Souza">
-    <title>Cad+</title>
+    <title>Site de Cultura</title>
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css"> 
     <link rel="stylesheet" href="estilos/estiloformlogin.css">
+    <link rel="shortcut icon" href="imagens/mascara-de-tragedia.png" type="image/x-icon">
 </head>
 <body>
+
+
     <main>
         <header>
             <h1>Cultura e Arte</h1>
@@ -40,6 +43,26 @@
             </ul>
         </nav> 
     </main> 
+    <div id="cookie-notification" class="CookieMessage" style="display: none;">
+        <div class="CookieMessage-content"> 
+          <p>Este site utiliza cookies de navegação para a melhor experiência do usuário. <a href="#">Saiba mais</a></p>
+          <p><a id="cookie-notification-close" class="CookieMessage-button" href="#">Aceitar</a></p>          
+        </div>
+      </div>
+    <script>
+        if (!localStorage.getItem("cookiesAccepted")) { 
+        var cookieMessage = document.getElementById('cookie-notification');  
+        var closeCookie = document.getElementById('cookie-notification-close');
+        
+        cookieMessage.style.display = 'block';  
+        closeCookie.addEventListener("click", function(e) {  
+          e.preventDefault();
+          localStorage.setItem("cookiesAccepted", true);
+          
+          cookieMessage.style.display = 'none';
+        });
+      }  
+    </script>
 </body>
 
 </html>
